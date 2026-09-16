@@ -1,0 +1,110 @@
+{
+  "schema_version": "MDS_CANONICAL_BASELINE_v1.0",
+  "project_id": "53x26B",
+  "project_name": "53x26B Residential & Commercial Development",
+  "client_name": "Private Client",
+  "location": "Yangon, Myanmar",
+  "currency": "MMK",
+  "contract": {
+    "total_contract_value": 519900000,
+    "received_amount": 292960000,
+    "pending_balance": 226940000,
+    "completion_rate_percentage": 56.35
+  },
+  "drawings": {
+    "canonical_approved_drawings_count": 0,
+    "reference_only_drawings_count": 4,
+    "disclaimer": "All current drawings are classified as REFERENCE_ONLY. Canonical approved baseline count remains 0 pending formal consultant sign-off.",
+    "list": [
+      {
+        "drawing_id": "DWG-53x26B-ARC-01",
+        "title": "Architectural Layout & Elevation (Draft)",
+        "classification": "REFERENCE_ONLY",
+        "version": "Rev.0.1",
+        "date": "2026-02-12"
+      },
+      {
+        "drawing_id": "DWG-53x26B-STR-01",
+        "title": "Structural Column & Foundation Layout (Draft)",
+        "classification": "REFERENCE_ONLY",
+        "version": "Rev.0.1",
+        "date": "2026-02-14"
+      },
+      {
+        "drawing_id": "DWG-53x26B-MEP-01",
+        "title": "MEP Schematic & Riser Routing (Preliminary)",
+        "classification": "REFERENCE_ONLY",
+        "version": "Rev.0.2",
+        "date": "2026-02-18"
+      },
+      {
+        "drawing_id": "DWG-53x26B-PLM-01",
+        "title": "Water Tank & Pump Room Arrangement (Draft)",
+        "classification": "REFERENCE_ONLY",
+        "version": "Rev.0.1",
+        "date": "2026-02-20"
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "milestone_id": "M01",
+      "name": "Contract Signing & Mobilization",
+      "percentage": 20,
+      "amount": 103980000,
+      "status": "VERIFIED_RECEIVED",
+      "paid_date": "2026-01-15",
+      "evidence_ref": "BANK-TXN-20260115-01"
+    },
+    {
+      "milestone_id": "M02",
+      "name": "Substructure & Foundation Complete",
+      "percentage": 20,
+      "amount": 103980000,
+      "status": "VERIFIED_RECEIVED",
+      "paid_date": "2026-02-28",
+      "evidence_ref": "BANK-TXN-20260228-04"
+    },
+    {
+      "milestone_id": "M03",
+      "name": "Structural Frame to Level 2 (Partial Claim)",
+      "percentage": 16.35,
+      "amount": 85000000,
+      "status": "VERIFIED_RECEIVED",
+      "paid_date": "2026-03-10",
+      "evidence_ref": "BANK-TXN-20260310-09"
+    },
+    {
+      "milestone_id": "M04",
+      "name": "Structural Frame Completion & Roof Slab Cast",
+      "percentage": 15,
+      "amount": 77985000,
+      "status": "NOT_VERIFIED",
+      "status_detail": "Precondition Evidenced - Structural inspection passed but client payment remittance NOT verified. Claim trigger disabled.",
+      "claim_trigger_allowed": false,
+      "evidence_ref": "SITE-INSPECTION-SLAB-P7"
+    },
+    {
+      "milestone_id": "M05",
+      "name": "MEP Rough-in & Brick Masonry",
+      "percentage": 15,
+      "amount": 77985000,
+      "status": "PENDING_SCHEDULE",
+      "claim_trigger_allowed": false
+    },
+    {
+      "milestone_id": "M06",
+      "name": "Final Handover & Retention Release",
+      "percentage": 13.65,
+      "amount": 70970000,
+      "status": "PENDING_SCHEDULE",
+      "claim_trigger_allowed": false
+    }
+  ],
+  "runtime_guard": {
+    "read_only": true,
+    "production_write": "DISABLED",
+    "canonical_source": "ALAN_SYSTEM_INSTANCE_v1.0 / MDS v1.0",
+    "last_sync_utc": "2026-09-15T22:40:00Z"
+  }
+}
